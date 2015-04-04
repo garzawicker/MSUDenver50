@@ -1,0 +1,12 @@
+.rounded-borders (@radius) {
+  border-radius: @radius;
+  -moz-border-radius: @radius;
+  -webkit-border-radius: @radius;
+}
+
+.module {
+  background-color: @black;
+  border: 1px solid @gray;
+  padding: 2px;
+  .rounded-borders (5px);
+}

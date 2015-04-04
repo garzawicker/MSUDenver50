@@ -1,0 +1,131 @@
+// C L A S S E S
+
+.row.wrap {
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 90%;
+}
+
+// T A G S
+
+body {
+  background-color: @msu-blue;
+  font-family: @sans-serif;
+}
+
+// C O N T E N T - P R I M A R Y
+
+.content-primary-wrap {
+  background-position: center center;
+  background-image: url("../../img/bg/fireworks.jpg");
+  background-attachment: scroll;
+  background-size: cover;
+  
+  .nav-primary {
+    background-color: @msu-gold;
+    height: 100%;
+    text-align: right;
+    
+    .logo-btn {
+      background-color: @white;
+      padding-top: @space-md;
+      padding-bottom: @space-md;
+      
+      img {
+        display: block;
+        margin: 0 auto;
+      }
+      
+    }
+    
+    .btn-primary {
+      
+      a {
+        font-size: 1.5em;
+        padding: 0.75em @space-sm;
+      }
+      
+    }
+    
+    .btn-secondary {
+      
+      a {
+        font-size: 1.15em;
+        padding: 0.5em @space-sm;
+      }
+      
+    }
+    
+    .btn-primary,
+    .btn-secondary {
+      
+      a {
+        
+        &:focus,
+        &:hover {
+          background-color: @msu-gold;
+        }
+        
+      }
+      
+    }
+    
+    a {
+      color: @white;
+      display: block; 
+    }
+    
+    li {
+      margin-bottom: 1px;
+    }
+    
+  }
+  
+  section {
+    background-color: @black-transparent;
+    border-top: 4px solid @msu-red;
+    height: 100%;
+    margin-top: @space-lg;
+    position: relative;
+  }
+  
+}
+
+// C O N T E N T - S E C O N D A R Y
+
+.content-secondary-wrap {
+  color: @white;
+  padding-top: @space-lg;
+  text-align: center;
+  
+  .nav-secondary {
+    font-size: 0.75em;
+    
+    a {
+      color: @white;
+      
+      &:focus,
+      &:hover {
+        color: @msu-gold;
+      }
+      
+    }
+    
+    p,
+    ul {
+      display: inline;
+      margin: 0;
+      width: auto;
+    }
+    
+    ul {
+      
+      li {
+        display: inline;
+      }
+      
+    }
+    
+  }
+  
+}
