@@ -20,6 +20,7 @@ body {
   background-image: url("../../img/bg/fireworks.jpg");
   background-attachment: scroll;
   background-size: cover;
+  color: @white;
   
   .nav-primary {
     background-color: @msu-gold;
@@ -42,7 +43,7 @@ body {
       
       a {
         font-size: 1.5em;
-        padding: 0.75em @space-sm;
+        padding: 1em @space-md;
       }
       
     }
@@ -51,7 +52,7 @@ body {
       
       a {
         font-size: 1.15em;
-        padding: 0.5em @space-sm;
+        padding: 0.5em @space-md;
       }
       
     }
@@ -74,6 +75,11 @@ body {
       color: @white;
       display: block; 
     }
+
+    .btn {
+      background: @black;
+      padding: 0.5em;
+    }
     
     li {
       margin-bottom: 1px;
@@ -81,12 +87,50 @@ body {
     
   }
   
+  .social-btn {
+    position:absolute;
+    right:0;
+    color: @white;
+    background: @msu-red;
+    padding:3px 6px;
+  }
+  
   section {
+    height: 100%;
+    position: relative;
+    margin-top: @space-sm;
+  }
+  
+  .content {
     background-color: @black-transparent;
     border-top: 4px solid @msu-red;
-    height: 100%;
     margin-top: @space-lg;
-    position: relative;
+  }
+
+  .content h1 {
+    text-align:center;
+    margin: 1em 0;
+  }
+
+
+  // T I M E L I N E
+
+  .timeline {
+
+    li {
+      border-right:1px solid @gray;
+
+      div {
+        border:1px solid @gray;
+        padding: @space-xs;
+      }
+
+      &:last-child {
+        border-right:none;
+      }
+      
+    }
+
   }
   
 }
@@ -101,6 +145,12 @@ body {
   .nav-secondary {
     font-size: 0.75em;
     
+    li {
+      &:before {
+        content: " | ";
+      }
+    }
+
     a {
       color: @white;
       
