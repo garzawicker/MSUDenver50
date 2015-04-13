@@ -1,0 +1,117 @@
+.content {
+  background-color: @black-transparent;
+  border-top: 4px solid @msu-red;
+  position: relative;
+  
+  .btn-social {
+    border: none;
+    border-radius: 0;
+    position: absolute;
+    right: 0;
+    color: @white;
+    background: @msu-red;
+    padding: 3px 6px;
+    z-index: 1000;
+  }
+  
+  .tagline {
+    
+    img {
+      display: block;
+      margin: @space-lg auto;
+    }
+    
+  }
+  
+  .module {
+    
+    .btn-primary {
+      background-color: @black;
+      border: 1px solid @gray;
+      margin-top: @space-md;
+      
+      &:focus,
+      &:hover {
+        background-color: @gray;
+        color: @white;
+        cursor: pointer;
+      }
+      
+    }
+    
+    a {
+      color: @white;
+      
+      &:focus,
+      &:hover {
+        color: @msu-gold;
+      }
+      
+    }
+    
+    h2 {
+      margin-bottom: 0.5em;
+    }
+    
+    h3 {
+      font-size: 1.15em;
+      font-weight: bold;
+      margin-bottom: 0.5em;
+    }
+    
+    &.upcoming-events {
+      
+      ul {
+        
+        li {
+          margin-bottom: @space-sm;
+          
+          &:last-child {
+            margin-bottom: 0;
+          }
+          
+          .event-date {
+            font-weight: bold;
+            text-transform: uppercase;
+          }
+          
+        }
+        
+      }
+      
+    }
+    
+    &.did-you-know {
+      background: @gray url("../../img/ui/did-you-know-bg.png") no-repeat right bottom;
+      text-align: center;
+      
+      .heading {
+        background: url("../../img/ui/did-you-know-header.png") no-repeat center center;
+        background-size: contain;
+        margin: @space-sm 0 @space-md 0;
+        text-indent: -9999px;
+      }
+      
+      .subheading,
+      p {
+        padding: 0 @space-sm;
+      }
+      
+    }
+    
+  }
+
+  .callouts {
+    
+    img {
+      display: block;
+      margin-bottom: 1em;
+    }
+
+    p {
+      padding: 0 1em;
+    }
+
+  }
+  
+}
