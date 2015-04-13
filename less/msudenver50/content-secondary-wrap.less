@@ -1,0 +1,42 @@
+.content-secondary-wrap {
+  color: @white;
+  padding-top: @space-lg;
+  text-align: center;
+  
+  .nav-secondary {
+    font-size: 0.75em;
+    
+    li {
+      &:before {
+        content: " | ";
+      }
+    }
+
+    a {
+      color: @white;
+      
+      &:focus,
+      &:hover {
+        color: @msu-gold;
+      }
+      
+    }
+    
+    p,
+    ul {
+      display: inline;
+      margin: 0;
+      width: auto;
+    }
+    
+    ul {
+      
+      li {
+        display: inline;
+      }
+      
+    }
+    
+  }
+  
+}
