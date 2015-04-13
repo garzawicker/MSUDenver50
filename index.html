@@ -20,109 +20,152 @@
         <div class="col-xs-12">
           <div class="row wrap">
             <div class="row">
-              <div class="col-xs-12 col-md-3">
-                <nav class="nav-primary" role="navigation">
-                  <a href="/" class="logo-btn"><img src="img/ui/logo.gif" alt="Metro State University - 50 Years of Transforming Lives" height="160" width="217"></a>
-                  <ul class="list-unstyled">
-                    <li class="btn-primary btn-people"><a href="our-people.html">Our People</a></li>
-                    <li class="btn-primary btn-history"><a href="our-history.html">Our History</a></li>
-                    <li class="btn-primary btn-future"><a href="our-future.html">Our Future</a></li>
-                    <li class="btn-primary btn-about"><a href="about.html">About</a></li>
-                    <li class="btn-secondary btn-share"><a href="share-your-story.html">Share Your Story</a></li>
-                    <li class="btn-secondary btn-gear"><a href="get-your-gear.html">Get Your Gear</a></li>
-                    <li class="btn-secondary btn-gift"><a href="make-a-gift.html">Make a Gift</a></li>
-                  </ul>
+              <div class="col-xs-12 col-md-3 columns">
+                <nav class="navbar navbar-default nav-primary" role="navigation">
+                  <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-list">
+                      <span class="sr-only">Toggle navigation</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand logo-btn" href="/"><img class="img-responsive" src="img/ui/logo.gif" alt="Metro State University - 50 Years of Transforming Lives" height="160" width="217"></a>
+                  </div>
+                  <div class="collapse navbar-collapse" id="nav-list">
+                    <ul class="list-unstyled">
+                      <li class="btn-primary btn-people"><a href="our-people.html">Our People</a></li>
+                      <li class="btn-primary btn-history"><a href="our-history.html">Our History</a></li>
+                      <li class="btn-primary btn-future"><a href="our-future.html">Our Future</a></li>
+                      <li class="btn-primary btn-about"><a href="about.html">About</a></li>
+                      <li class="btn-secondary btn-share"><a href="share-your-story.html">Share Your Story</a></li>
+                      <li class="btn-secondary btn-gear"><a href="get-your-gear.html">Get Your Gear</a></li>
+                      <li class="btn-secondary btn-gift"><a href="make-a-gift.html">Make a Gift</a></li>
+                    </ul>
+                  </div>
                 </nav>
               </div>
-              <div class="col-xs-12 col-md-9">
+              <div class="col-xs-12 col-md-9 columns">
                 <section class="content">
-                  <a href="#" class="social-btn">Social Stream +</a>
-                  <h1>50 Years of Transforming Lives</h1>
-                  <div class="row">
-                    <div class="col-xs-6">
-                      <section class="featured-story">
-                        <img src="img/featured-story-headshot.jpg" style="float:left" alt="" />
-                        <h3>Featured Story</h3>
-                        <h4>Featured story subhead goes here</h4>
-                        <p>Featured story content goes here. Featured story content goes here. Featured story content goes here. Featured story content goes here. </p>
-                        <p><a class="btn" href="#">Read More ></a></p>
-                      </section>
-                    </div>
-                    <div class="col-xs-6">
-                      <section class="upcoming-events">
-                        <h3>Upcoming Events</h3>
-                        <dl class="dl-horizontal">
-                          <dt>June 26</dt>
-                          <dd>Event Description here >></dd>
-                          <dt>July 4</dt>
-                          <dd>Event Description here >></dd>
-                          <dt>July 12</dt>
-                          <dd>Event Description here >></dd>
-                        </dl>
-                        <p><a class="btn" href="#">All Events ></a></p>
-                      </section>
+                  <button type="button" class="btn btn-primary btn-social" data-toggle="modal" data-target="#social">Social Stream +</button>
+                  <div class="modal fade" id="social" tabindex="-1" role="dialog" aria-labelledby="social-stream" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                          <h2 class="modal-title" id="social-stream">Metropolitan State University Social Stream</h2>
+                        </div>
+                        <div class="modal-body">
+                          <p>Social stream embed goes here</p>
+                        </div>
+                      </div>
                     </div>
                   </div>
                   <div class="row">
                     <div class="col-xs-12">
-                      <section class="timeline">
-                        <ul class="list-inline">
-                          <li>
-                            <div>
-                              <img class="img-responsive" src="img/timeline-1.jpg" alt="" />
-                              <p>Timeline entry intro copy here with link.</p>
-                              <p><a href="#">Read More ></a></p>
-                            </div>
-                          </li>
-                          <li>
-                            <div>
-                              <img class="img-responsive" src="img/timeline-2.jpg" alt="" />
-                              <p>Timeline entry intro copy here with link.</p>
-                              <p><a href="#">Read More ></a></p>
-                            </div>
-                          </li>
-                          <li>
-                            <div>
-                              <img class="img-responsive" src="img/timeline-3.jpg" alt="" />
-                              <p>Timeline entry intro copy here with link.</p>
-                              <p><a href="#">Read More ></a></p>
-                            </div>
-                          </li>
-                        </ul>
-                      </section>
+                      <h1 class="tagline">50 Years of Transforming Lives</h1>
                     </div>
                   </div>
                   <div class="row">
-                    <div class="col-xs-8">
-                      <section class="video">
+                    <div class="col-xs-12 col-md-6">
+                      <section class="module module-transparent featured-story">
+                        <div class="row">
+                          <div class="col-xs-5">
+                            <img class="img-responsive" src="img/featured-story-headshot.jpg" alt="" />
+                          </div>
+                          <div class="col-xs-7">
+                            <h2>Headline</h2>
+                            <h3>Subhead</h3>
+                            <p>Featured story text goes here.</p>
+                            <p><a class="btn btn-primary" href="#">Read More</a></p>
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                    <div class="col-xs-12 col-md-6">
+                      <section class="module module-transparent upcoming-events">
+                        <h2>Upcoming Events</h2>
+                        <ul class="list-unstyled event-list">
+                          <li class="row">
+                            <span class="col-xs-3 event-date">June 26</span>
+                            <span class="col-xs-9 event-desc"><a href="#">Event description here &raquo;</a></span>
+                          </li>
+                          <li class="row">
+                            <span class="col-xs-3 event-date">July 4</span>
+                            <span class="col-xs-9 event-desc"><a href="#">Event description here &raquo;</a></span>
+                          </li>
+                          <li class="row">
+                            <span class="col-xs-3 event-date">July 18</span>
+                            <span class="col-xs-9 event-desc"><a href="#">Event description here &raquo;</a></span>
+                          </li>
+                        </ul>
+                        <p><a class="btn btn-primary" href="#">All Events </a></p>
+                      </section>
+                    </div>
+                  </div>
+                  
+                  <div class="row">
+                    <div class="col-xs-12">
+                      <section class="module callouts">
+                        <div class="row">
+                          <div class="col-xs-12 col-md-4">
+                            <article class="module">
+                              <div class="row">
+                                <div class="col-xs-5 col-md-12">
+                                  <img class="img-responsive" src="img/timeline-1.jpg" alt="" />
+                                </div>
+                                <div class="col-xs-7 col-md-12">
+                                  <p>Callout text here.</p>
+                                  <p><a href="#">Read More &raquo;</a></p>
+                                </div>
+                              </div>
+                            </article>
+                          </div>
+                          <div class="col-xs-12 col-md-4">
+                            <article class="module">
+                              <div class="row">
+                                <div class="col-xs-5 col-md-12">
+                                  <img class="img-responsive" src="img/timeline-2.jpg" alt="" />
+                                </div>
+                                <div class="col-xs-7 col-md-12">
+                                  <p>Callout text here.</p>
+                                  <p><a href="#">Read More &raquo;</a></p>
+                                </div>
+                              </div>
+                            </article>
+                          </div>
+                          <div class="col-xs-12 col-md-4">
+                            <article class="module">
+                              <div class="row">
+                                <div class="col-xs-5 col-md-12">
+                                  <img class="img-responsive" src="img/timeline-3.jpg" alt="" />
+                                </div>
+                                <div class="col-xs-7 col-md-12">
+                                  <p>Callout text here.</p>
+                                  <p><a href="#">Read More &raquo;</a></p>
+                                </div>
+                              </div>
+                            </article>
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                  </div>
+                  
+                  <div class="row">
+                    <div class="col-xs-12 col-md-8">
+                      <section class="module module-transparent video">
                         <img class="img-responsive" src="img/video-thumb.png" alt="" />
                       </section>
                     </div>
-                    <div class="col-xs-4">
-                      <section class="did-you-know">
-                        <h3>Did you know?</h3>
-                        <h4>Module subhead goes here</h4>
-                        <p>Did you know text goes here. Did you know text goes here. Did you know text goes here. </p>
+                    <div class="col-xs-12 col-md-4">
+                      <section class="module did-you-know">
+                        <h2>Did you know?</h2>
+                        <h3>Subhead</h3>
+                        <p>Did you know text goes here.</p>
                       </section>
                     </div>
                   </div>
-                  <div class="row">
-                    <div class="col-xs-12">
-                      <section class="image-links">
-                        <ul class="list-inline">
-                          <li>
-                            <img class="img-responsive" src="img/img-1.jpg" alt="" />
-                          </li>
-                          <li>
-                            <img class="img-responsive" src="img/img-2.jpg" alt="" />
-                          </li>
-                          <li>
-                            <img class="img-responsive" src="img/img-3.jpg" alt="" />
-                          </li>
-                        </ul>
-                      </section>
-                    </div>
-                  </div>
+                  
                 </section>
               </div>
             </div>

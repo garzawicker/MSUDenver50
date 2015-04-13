@@ -1,4 +1,27 @@
-// O V E R R I D E S
+// C L A S S E S
+
+.navbar {
+  border: none;
+  border-radius: 0;
+  margin-bottom: 0;
+}
+
+.navbar-header {
+  float: none;
+}
+
+.navbar-brand {
+  float: none;
+  font-size: inherit;
+  height: auto;
+  line-height: auto;
+  padding: 0;
+}
+
+.navbar-collapse {
+  padding-right: 0;
+  padding-left: 0;
+}
 
 .btn-primary {
   background-color: @msu-blue;
@@ -22,6 +45,22 @@
   
 }
 
+.modal-content {
+  background-color: @black;
+}
+
+.modal-header {
+  border-bottom: none;
+  
+  .close {
+    color: @white;
+    opacity: .8;
+  }
+  
+}
+
+// T A G S
+
 a {
   
   &:focus,
@@ -29,4 +68,36 @@ a {
     text-decoration: none;
   }
   
+}
+
+body {
+  background-color: @msu-blue;
+  font-family: @sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.6em;
+}
+
+h3 {
+  font-size: 1.3em;
+}
+
+h4,
+h5,
+h6 {
+  font-size: 1.2em;
 }
