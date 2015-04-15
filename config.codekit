@@ -1901,6 +1901,17 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/img\/50-photos.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12512,
+		"inputAbbreviatedPath": "\/img\/50-photos.jpg",
+		"outputAbbreviatedPath": "\/img\/50-photos.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/bg\/fireworks.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1908,6 +1919,17 @@
 		"initialSize": 303199,
 		"inputAbbreviatedPath": "\/img\/bg\/fireworks.jpg",
 		"outputAbbreviatedPath": "\/img\/bg\/fireworks.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/countdown-placeholder.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1814,
+		"inputAbbreviatedPath": "\/img\/countdown-placeholder.png",
+		"outputAbbreviatedPath": "\/img\/countdown-placeholder.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1952,6 +1974,39 @@
 		"initialSize": 21871,
 		"inputAbbreviatedPath": "\/img\/img-3.jpg",
 		"outputAbbreviatedPath": "\/img\/img-3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/katherine-archuleta.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 13015,
+		"inputAbbreviatedPath": "\/img\/katherine-archuleta.jpg",
+		"outputAbbreviatedPath": "\/img\/katherine-archuleta.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/our-history.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 15685,
+		"inputAbbreviatedPath": "\/img\/our-history.jpg",
+		"outputAbbreviatedPath": "\/img\/our-history.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/social-wall.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14805,
+		"inputAbbreviatedPath": "\/img\/social-wall.jpg",
+		"outputAbbreviatedPath": "\/img\/social-wall.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3677,6 +3732,26 @@
 		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/less\/msudenver50\/global.less",
 		"outputAbbreviatedPath": "\/dist\/css\/global.min.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"relativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"strictImports": 0,
+		"strictMath": 0,
+		"strictUnits": 0
+		},
+	"\/less\/msudenver50\/media-queries.less": {
+		"allowInsecureImports": 0,
+		"createSourceMap": 1,
+		"disableJavascript": 0,
+		"fileType": 1,
+		"ieCompatibility": 1,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/less\/msudenver50\/media-queries.less",
+		"outputAbbreviatedPath": "\/dist\/css\/media-queries.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 2,
