@@ -2088,6 +2088,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/video-thumb.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 97776,
+		"inputAbbreviatedPath": "\/img\/video-thumb.jpg",
+		"outputAbbreviatedPath": "\/img\/video-thumb.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/video-thumb.png": {
 		"fileType": 32768,
 		"ignore": 0,

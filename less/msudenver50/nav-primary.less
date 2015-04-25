@@ -1,6 +1,9 @@
 .nav-primary {
-  background-color: @msu-gold;
-  text-align: right;
+  border-bottom: 4px solid @msu-gold;
+  
+  &.navbar-default {
+    background: none !important;
+  }
   
   .logo-btn {
     background-color: @white;
@@ -18,29 +21,13 @@
     
   }
   
-  .btn-primary {
-    
-    a {
-      font-size: 1.5em;
-      padding: 1em @space-md;
-    }
-    
-  }
-  
-  .btn-secondary {
-    
-    a {
-      font-size: 1.15em;
-      padding: 0.5em @space-md;
-    }
-    
-  }
-  
   .btn-primary,
   .btn-secondary {
     
     a {
-      
+      font-size: 1.1em;
+      padding: 0.75em @space-md;
+    
       &:focus,
       &:hover {
         background-color: @msu-gold;
@@ -50,14 +37,18 @@
     
   }
   
+  .btn {
+    background: @black;
+    padding: 0.5em;
+  }
+  
   a {
     color: @white;
     display: block; 
   }
 
-  .btn {
-    background: @black;
-    padding: 0.5em;
+  ul {
+    margin-bottom: 0;
   }
   
   li {
