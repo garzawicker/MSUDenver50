@@ -26,6 +26,10 @@
   
   .module {
     
+    &.heading {
+      padding: @space-md;
+    }
+    
     .btn-primary {
       background-color: @black;
       border: 1px solid @gray;
@@ -99,19 +103,27 @@
       
     }
     
-    &.callout {
-      border-radius: 0;
-      border-top: 1px solid @gray;
-      border-bottom: 1px solid @gray;
-      padding-top: @space-md;
-      padding-bottom: @space-md;
+    &.secondary {
       
       h3 {
-        background-color: @msu-red;
+        background-color: @black;
+        border-top: 1px solid @msu-red;
         color: @white;
         font-size: 1em;
         margin: 0;
-        padding: 0.5rem;
+        padding: 0.625em 0.5rem;
+        
+      }
+      
+      p {
+        font-size: 0.9em;
+      }
+      
+    }
+    
+    &.callout {
+      
+      h3 {
         
         &:focus,
         &:hover {
