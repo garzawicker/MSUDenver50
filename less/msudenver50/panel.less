@@ -1,30 +1,119 @@
 .panel{
-	color:@black;	
+	color:@black;
 	border-radius: 0px;
 	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.26);
+//	min-height: 220px;
 }
 
 .panel-header {background: #00447c;
-	
+
 }
-.panel-default {
+.panel-default, .panel-danger, .panel-gold {
   border: none;
-	
+
 }
 
 .panel-title {
   font-size: 20px;
 	font-weight: 100;
+
 }
 
 .panel-default>.panel-heading {
   color: @white;
-  background-color: #00447c;
-  border-color: #00447c;
+  background-color: @msu-blue;
+  border-color: @msu-blue;
 	border-radius: 0px;
 	border-bottom-color: @msu-red;
 }
 
-.panel-body a {color:@black;
-	
+.panel-default>.panel-body > p >a{
+	font-size: 20px;
+	color: @msu-blue;
+	font-weight: 100;
+}
+
+.panel-danger>.panel-heading {
+
+	color: @white;
+  background-color: @msu-red;
+  border-color: @msu-red;
+	border-radius: 0px;
+	border-bottom-color: @msu-blue;
+
+	.panel-title{
+		font-size: 30px;
+	}
+}
+
+
+
+
+.panel-danger>.panel-body {
+	font-size: 20px;
+	color: @msu-blue;
+	min-height: 290px;
+}
+
+.panel-gold{
+	border-radius: 0px;
+	box-shadow: 0 2px 2px rgba(0, 0, 0, 0.26);
+//	min-height: 220px;
+
+		.panel-heading {
+			color: @white;
+			background-color: @msu-gold;
+			border-color: @msu-gold;
+			border-radius: 0px;
+//			border-bottom-color: @white;
+		}
+
+	.panel-body{
+		color: @white;
+  background-color: @msu-gold;
+
+	}
+}
+
+
+.panel-body a {color:@white;
+
+}
+
+
+.panel-photo {
+	min-height: 220px;
+	.panel-heading{
+	.panel-title {
+		color:white;
+		font-size:30px;
+		text-align:center;
+		text-shadow: 0px 1.5px #222222;
+		padding-top:15px;
+	}
+	}
+	.panel-body > p {
+		color:white;
+		font-size:20px;
+		text-align:center;
+		text-shadow: 0px 1.5px #222222;
+		a{
+			color:white;
+		}
+	}
+}
+
+
+.panel-know {
+	.panel-heading{
+		.panel-title{
+			margin-top: 10px;
+			color:@msu-blue;
+			font-size:30px;
+		}
+		hr{margin-bottom:-15px;}
+	}
+	.panel-body > p {
+		font-size:20px;
+	}
 }
