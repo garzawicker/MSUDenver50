@@ -1,0 +1,178 @@
+.page-header{
+	margin-top: 20px;
+	margin-bottom: 0px;
+	border-top: 4px solid @msu-red;
+	background: @msu-blue;
+  border-bottom: none;
+	box-shadow: 0 2px 6px rgba(0,0,0,.175);
+
+	
+	.btn-social {
+    border: none;
+    border-radius: 0;
+    position: absolute;
+    right: 0;
+    color: @white;
+    background: @msu-red;
+    padding: 3px 6px;
+    z-index: 1000;
+  }
+
+  .tagline {
+	  img {
+      display: block;
+      margin: @space-lg auto @space-md auto;
+    }
+  	}	
+		
+	}
+
+hr {
+border-top: 1px solid @msu-red;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+.content {
+	padding-top: @space-md;
+	padding-bottom: @space-md;
+	background: @white;
+//	  margin-top: 20px;
+//  background-color: @white;
+  
+  margin-bottom: @space-md;
+  position: relative;
+	box-shadow: 1px 10px 6px rgba(0,0,0,0.175);
+
+  
+  .module {
+
+    &.heading {
+      padding: @space-md;
+    }
+
+    .btn-primary {
+      background-color: @black;
+      border: 1px solid @gray;
+      margin-top: @space-md;
+
+      &:focus,
+      &:hover {
+        background-color: @gray;
+        color: @white;
+        cursor: pointer;
+      }
+
+    }
+
+    .glyphicon {
+      font-size: 0.9em;
+      opacity: 0.6;
+    }
+
+    a {
+      color: @msu-blue;
+
+      &:focus,
+      &:hover {
+        color: @msu-gold;
+      }
+
+    }
+
+    article {
+
+       p:last-child {
+        margin-bottom: 0;
+      }
+
+    }
+
+    h2,
+    h3 {
+//      margin-bottom: 1em;
+			color:@msu-blue;
+    }
+
+    &.featured-story {
+
+      h3 {
+//        font-size: 1.35em;
+      }
+
+    }
+
+    &.upcoming-events {
+
+      ul {
+
+        li {
+//          border-bottom: 1px solid @gray;
+//          margin-bottom: @space-sm;
+//          padding-bottom: @space-sm;
+
+          .event-date {
+            display: block;
+            font-size: 0.8em;
+            font-weight: bold;
+            margin-bottom: 0.5em;
+            text-transform: uppercase;
+          }
+
+        }
+
+      }
+
+    }
+
+    &.secondary {
+
+      h3 {
+        background-color: @msu-blue;
+        border-top: 1px solid @msu-red;
+        color: @white;
+        font-size: 1em;
+        margin: 0;
+        padding: 0.625em 0.5rem;
+
+      }
+
+      p {
+        font-size: 0.9em;
+      }
+
+    }
+
+    &.callout {
+
+      h3 {
+
+        a {
+          display: block;
+
+          &:focus,
+          &:hover {
+            color: @white;
+          }
+
+        }
+
+      }
+
+      img {
+        margin: 1px 0 1em 0;
+      }
+
+    }
+
+    &.did-you-know,
+    &.sponsors {
+
+      h3 {
+        margin-bottom: 0.5em;
+      }
+
+    }
+
+  }
+
+}

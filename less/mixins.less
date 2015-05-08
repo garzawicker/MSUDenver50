@@ -1,39 +1,31 @@
-// Mixins
-// --------------------------------------------------
+.rounded-borders (@radius) {
+  border-radius: @radius;
+  -moz-border-radius: @radius;
+  -webkit-border-radius: @radius;
+}
 
-// Utilities
-@import "mixins/hide-text.less";
-@import "mixins/opacity.less";
-@import "mixins/image.less";
-@import "mixins/labels.less";
-@import "mixins/reset-filter.less";
-@import "mixins/resize.less";
-@import "mixins/responsive-visibility.less";
-@import "mixins/size.less";
-@import "mixins/tab-focus.less";
-@import "mixins/text-emphasis.less";
-@import "mixins/text-overflow.less";
-@import "mixins/vendor-prefixes.less";
+.module {
+  margin: @space-sm;
+}
 
-// Components
-@import "mixins/alerts.less";
-@import "mixins/buttons.less";
-@import "mixins/panels.less";
-@import "mixins/pagination.less";
-@import "mixins/list-group.less";
-@import "mixins/nav-divider.less";
-@import "mixins/forms.less";
-@import "mixins/progress-bar.less";
-@import "mixins/table-row.less";
+.gradient-bg-light {
+  background: #c7ddef;
+  background: -moz-linear-gradient(top,  #c7ddef 0%, #00447c 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#c7ddef), color-stop(100%,#00447c));
+  background: -webkit-linear-gradient(top,  #c7ddef 0%,#00447c 100%);
+  background: -o-linear-gradient(top,  #c7ddef 0%,#00447c 100%);
+  background: -ms-linear-gradient(top,  #c7ddef 0%,#00447c 100%);
+  background: linear-gradient(to bottom,  #c7ddef 0%,#00447c 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c7ddef', endColorstr='#00447c',GradientType=0 );
+}
 
-// Skins
-@import "mixins/background-variant.less";
-@import "mixins/border-radius.less";
-@import "mixins/gradients.less";
-
-// Layout
-@import "mixins/clearfix.less";
-@import "mixins/center-block.less";
-@import "mixins/nav-vertical-align.less";
-@import "mixins/grid-framework.less";
-@import "mixins/grid.less";
+.gradient-bg-dark {
+  background: #0f1930;
+  background: -moz-linear-gradient(top,  #0f1930 0%, #00447c 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#0f1930), color-stop(100%,#00447c));
+  background: -webkit-linear-gradient(top,  #0f1930 0%,#00447c 100%);
+  background: -o-linear-gradient(top,  #0f1930 0%,#00447c 100%);
+  background: -ms-linear-gradient(top,  #0f1930 0%,#00447c 100%);
+  background: linear-gradient(to bottom,  #0f1930 0%,#00447c 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0f1930', endColorstr='#00447c',GradientType=0 );
+}
