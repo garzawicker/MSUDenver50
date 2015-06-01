@@ -1,14 +1,12 @@
 .content-secondary-wrap {
+	
   color: @gray-light;
   padding-top: @space-md;
   text-align: center;
+	background-color: #3a3c41;
 
   /* temporary styles for the countdown placeholder */
-  .countdown {
-//    background: url("../../img/countdown-placeholder.png") no-repeat center center;
-    height: 148px;
-    margin-bottom: @space-lg;
-  }
+
 
   .nav-secondary {
     font-size: 0.75em;
@@ -47,4 +45,22 @@
 
   }
 
+}
+
+.socialmediafooter{
+	margin-top: -50px;
+}
+
+.fa-youtube, .fa-instagram, .fa-facebook, .fa-twitter, .fa-flickr {
+	background-color: white;
+	border-radius:50px;
+	box-shadow: 0 8px 10px rgba(0,0,0,0.40);
+	color:@msu-blue;
+	&:focus, &:hover {
+		color:@msu-red;
+	}
+}
+.fa-stack {
+  margin-left: 10px;
+	margin-right: 10px;
 }

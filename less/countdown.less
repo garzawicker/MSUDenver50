@@ -1,4 +1,5 @@
 .countdown {
+  margin-bottom: @space-lg;
 	text-align: center;
 	text-transform: uppercase;
 	display: block;
@@ -9,12 +10,12 @@
 		color: white;
 		box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
 		text-align: center;
-		border: 1px solid #d4d4d4;
+		border: 0px;
 		font-weight: 100;
 		font-size: 4em;
 		width: 90%;
 		margin: 0 10px;
-		background: #00447c;
+		background: #1a2024;
 	}
 	span.title {
 		text-align: center;
@@ -22,32 +23,22 @@
 		font-weight: 200;
 		letter-spacing: 3px;
 	}
-	span.days {
+	span.time {
 		text-align: center;
-		font-size: 2.5em;
+		font-size: 2em;
 		font-weight: 100;
 		letter-spacing: 3px;
 	}
-	.bottom_time input {
-		display: inline-block;
-		height: 2em;
-		font-size: 2em;
-		width: 20%;
-	}
-	ul {
-		padding: 0;
-		margin: .5em 0;
-		li {
-			text-align: center;
-			display: inline;
-			font-weight: 100;
-			padding: 0 15px 0 15px;
-		}
-	}
 }
 
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 300px) and (max-width: 1199px) {
 	span.title {
-		font-size: 2.75em !important;
+		font-size: 2em !important;
+	}
+	span.time {
+		text-align: center;
+		font-size: 1.5em;
+		font-weight: 100;
+		letter-spacing: 3px;
 	}
 }
