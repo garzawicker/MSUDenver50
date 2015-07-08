@@ -1,6 +1,6 @@
 .timeline {
   list-style: none;
-  padding: 20px 0 20px;
+  padding: 0px;
   position: relative;
 }
 .timeline:before {
@@ -37,12 +37,12 @@
   clear: both;
 }
 .timeline > li > .timeline-panel {
+	padding:15px;
 	background-color: white;
   width: 95%;
   float: left;
   border: 1px solid #d4d4d4;
   /*border-radius: 2px;*/
-  /*padding: 20px;*/
   position: relative;
   -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
   box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
@@ -89,16 +89,18 @@
   border-bottom-left-radius: 50%;
   */
 }
-.timeline > li.timeline-inverted > .timeline-panel {
+
+.timeline > li:nth-child(odd) > .timeline-panel {
   float: right;
 }
-.timeline > li.timeline-inverted > .timeline-panel:before {
+
+.timeline > li:nth-child(odd) > .timeline-panel:before {
   border-left-width: 0;
   border-right-width: 15px;
   left: -15px;
   right: auto;
 }
-.timeline > li.timeline-inverted > .timeline-panel:after {
+.timeline > li:nth-child(odd) > .timeline-panel:after {
   border-left-width: 0;
   border-right-width: 14px;
   left: -14px;
@@ -110,18 +112,40 @@
 .timeline-badge a:hover {
   color: #000 !important;
 }
-.timeline-title {
-  margin-top: 0;
-  color: inherit;
+
+.timeline-heading {
+	padding-bottom: 0px;
+  color: #00447c;
+  font-weight: 300;
+  font-size: 1.3em;
 }
+
+.timeline-heading >	span.date {
+  color: rgb(115, 113, 113);
+  font-size: 17px;
+}
+
+.timeline > hr {
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.timeline-body>img.img-responsive {
+  float: left;
+}
+
+/*
 .timeline-body > p,
 .timeline-body > ul {
-    padding:20px;
+    padding:15px;
     margin-bottom: 0;
 }
+*/
+/*
 .timeline-body > p + p {
   margin-top: 5px;
 }
+*/
 .timeline-footer{
     padding:20px;
     background-color:#f4f4f4;
@@ -130,99 +154,24 @@
     cursor: pointer;
     text-decoration: none;
 }
-.tooltip{
 
-    position:absolute;
-    z-index:1020;
-    display:block;
-    visibility:visible;
-    padding:5px;
-    font-size:11px;
-    opacity:0;
-    filter:alpha(opacity=0);
-    
-}
-.tooltip.in{
-    /*opacity:0;
-    filter:alpha(opacity=80);*/
-    
-}
-.tooltip.top{
-    margin-top:-2px;
-}
-.tooltip.right{
-    margin-left:2px;
-}
-.tooltip.bottom{
-    margin-top:2px;
-}
-.tooltip.left{
-    margin-left:-2px;
-}
-.tooltip.top .tooltip-arrow{
-    bottom:0;
-    left:0;
-    margin-left:0;
-    border-left:0 solid transparent;
-    border-right:5px solid transparent;
-    border-top:0 solid #000;
-}
-.tooltip.left .tooltip-arrow{
-    bottom:0;
-    left:0;
-    margin-left:0;
-    border-left:0 solid transparent;
-    border-right:5px solid transparent;
-    border-top:0 solid #000;
-}
-.tooltip.bottom .tooltip-arrow{
-    bottom:0;
-    left:0;
-    margin-left:0;
-    border-left:0 solid transparent;
-    border-right:5px solid transparent;
-    border-top:0 solid #000;
-}
-.tooltip.right .tooltip-arrow{
-    bottom:0;
-    left:0;
-    margin-left:0;
-    border-left:0 solid transparent;
-    border-right:5px solid transparent;
-    border-top:0 solid #000;
-}
-.tooltip-inner{
-    width:200px;
-    padding:3px 8px;
-    color:#fff;
-    text-align:center;
-    text-decoration:none;
-    background-color:#313131;
-    -webkit-border-radius:0px;
-    -moz-border-radius:0px;
-    border-radius:0px;
-}
-.tooltip-arrow{
-    position:absolute;
-    width:0;
-    height:0;
-}
-.timeline > li.timeline-inverted{
-  float: right; 
+
+.timeline > li:nth-child(odd){
+  float: right;
   clear: right;
   margin-top: 30px;
   margin-bottom: 30px;
 }
-.timeline > li:nth-child(2){
-  margin-top: 60px;
-}
-.timeline > li.timeline-inverted > .timeline-badge{
+//.timeline > li:nth-child(2){
+//  margin-top: 60px;
+//}
+.timeline > li:nth-child(odd) > .timeline-badge{
   left: -12px;
 }
 
 @media (max-width: 767px) {
     ul.timeline:before {
-        left: 40px;
+        left: 3px;
     }
 
     ul.timeline > li {
@@ -233,13 +182,13 @@
       clear: left;
     }
     ul.timeline > li > .timeline-panel {
-        width: calc(100% - 90px);
-        width: -moz-calc(100% - 90px);
-        width: -webkit-calc(100% - 90px);
+        width: calc(100% - 30px);
+        width: -moz-calc(100% - 30px);
+        width: -webkit-calc(100% - 30px);
     }
 
     ul.timeline > li > .timeline-badge {
-        left: 28px;
+        left: -10px;
         margin-left: 0;
         top: 16px;
     }
@@ -257,19 +206,94 @@
 
         ul.timeline > li > .timeline-panel:after {
             border-left-width: 0;
-            border-right-width: 14px;
-            left: -14px;
+            border-right-width: 15px;
+            left: -15px;
             right: auto;
         }
-    
-.timeline > li.timeline-inverted{
-  float: left; 
-  clear: left;
-  margin-top: 30px;
-  margin-bottom: 30px;
+
+//.timeline > li:nth-child(odd){
+//  float: left;
+//  clear: left;
+//  margin-top: 30px;
+//  margin-bottom: 30px;
+//}
+
+//.timeline > li:nth-child(odd) > .timeline-badge{
+//  left: 28px;
+//}
+
 }
 
-.timeline > li.timeline-inverted > .timeline-badge{
-  left: 28px;
+
+
+//bootstrapOverwrites
+.modal-content {
+margin-top: 200px;
 }
+
+
+.timeline-panel img, .modal img {
+  padding-left: 15px;
+  padding-right:15px;
+  padding-bottom:15px;
+}
+
+li.timeline-year {
+                        margin-top: 0px !important;
+			border-radius: 2px;
+	                height: 75px;
+			text-align: center;
+			color:white;
+			font-size: 2em;
+			font-weight: 100;
+			width:100%;
+			padding: 15px  0 15px 0;
+			background: rgb(0, 68, 124);
+			margin-bottom: 30px;
+			position: relative;
+			-webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+			box-shadow: 0 5px 10px rgba(0, 0, 0, 0.175);
+}
+
+
+.timeline-body>a.btn.btn-default {
+  visibility: hidden;
+}
+
+.timeline-body>a.btn.btn-default.major {
+  visibility: visible;
+}
+
+.modal-header {
+background: #00447c;
+}
+.modal-header span {
+  color: white;
+  font-size: 30px;
+  font-weight: 200;
+  padding-right:15px;
+}
+
+.btn-default {
+  color: #fff;
+  background-color: #00447c;
+  border-color: #00447c;
+  font-size: 16px;
+  border-radius: 0px;
+  font-weight: 200;
+}
+
+.timeline-body>.btn-default {
+  width: 100%;
+}
+
+
+.timeline-link{
+color:#fff;
+float:right;
+}
+
+.addthis_toolbox>.fa-stack {
+  margin-left: 30px;
+  margin-right: 30px;
 }
