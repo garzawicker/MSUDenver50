@@ -113,6 +113,8 @@ h6 {
 }
 .nav-primary {
   border-bottom: 8px solid #b2a97e;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 .nav-primary.navbar-default {
   background: #b2a97e;
