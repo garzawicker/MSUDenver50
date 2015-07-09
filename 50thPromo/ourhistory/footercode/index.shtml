@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<!--[if lt IE 7 ]><html lang="en" class="ie6"><![endif]-->
+<!--[if IE 7 ]><html lang="en" class="ie7"><![endif]-->
+<!--[if IE 8 ]><html lang="en" class="ie8"><![endif]-->
+<!--[if IE 9 ]><html lang="en" class="ie9"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html lang="en">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>FooterCode | 50 Years of Transforming Lives | MSU Denver</title>
+
+<!-- Meta Data -->
+<meta name="description" content="Metropolitan State University of Denver is a fully accredited university offering an individualized and relevant education in downtown Denver, leading to bachelor’s and select master’s degrees.  MSU Denver educates more undergraduate Coloradans than any other four-year university in the state."/>
+
+
+          
+
+<meta name="google-site-verification" content="W3RS-MX1q0fLm2k731Ymz8fNmTCdPEizDE5Vzb9ZuoE" />
+
+<!-- CDN -->
+<link href='//fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,400,300,700,600' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
+<link href='//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css' rel='stylesheet' type='text/css' media='screen'>
+
+<!-- CSS -->
+<link rel="stylesheet" type="text/css" media="screen" href="/media/prod/bowercomponents/bootstrap/dist/css/bootstrap.min.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="/media/styleassets/css/main.min.css" />
+<link rel="stylesheet" type="text/css" media="print" href="/media/prod/css/print.css" />
+
+<!-- HTML5 shim & respond.js, for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+                <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.2.0/respond.min.js"></script>
+                <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6/html5shiv.min.js"></script>
+<![endif]-->
+
+<!-- Fav and touch icons -->
+
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/media/assets/ico/apple-touch-icon-144-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/media/assets/ico/apple-touch-icon-114-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/media/assets/ico/apple-touch-icon-72-precomposed.png">
+<link rel="apple-touch-icon-precomposed" href="/media/assets/ico/apple-touch-icon-57-precomposed.png">
+<link rel="shortcut icon" href="/media/assets/ico/favicon.png">
+
+
+<!-- BEGINS MUlTIPLE COL SPECIFIC DEPENDENCIES  -->
+<!-- conditional jQuery load -->
+<script type="text/javascript" src="/media/prod/bowercomponents/jquery/jquery.min.js"></script>
+
+<!-- HeaderCode -->
+
+<!-- ENDS MUlTIPLE COL DEPS SPECIFICS -->
+
+
+</head>
+
+<body>
+  <a href="#content" class="sr-only">Skip to main content</a>
+
+<!-- BEGINS LOGO + QUICK-LINKS -->
+<div class="container">
+    <!-- Logo and QuickLInks -->
+    <div class="row">
+        <!-- QUICKLINKS TOOLBAR -->
+        <div class="col-lg-7 col-lg-push-5 ">
+            <!-- Static navbar -->
+            <div class="navbar navbar-static-top  toolbar navbar-inverse ">
+                <div class="navbar-header">
+                    <a class="navbar-brand visible-xs" href="#" data-toggle="collapse" data-target=".navbar-collapse">QUICK LINKS</a>
+                    <button type="button " class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle quick links navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="quicktools"><a href="/a_to_z">A to Z</a>
+                        </li>
+                        <li class="quicktools"><a href="https://connectu.msudenver.edu"><strong>ConnectU</strong></a>
+                        </li>
+                        <li class="quicktools"><a href="http://library.auraria.edu">Library</a>
+                        </li>
+                        <li class="quicktools"><a href="/maps">Maps</a>
+                        </li>
+                        <li class="quicktools"><a href="/student">Current Students</a>
+                        </li>
+                        <li class="quicktools"><a href="/facstaff">Faculty & Staff</a>
+                        </li>
+                        <li>
+                            <a data-toggle="collapse" href="#quicksearch">
+                                <em>
+                                    <b class="glyphicon glyphicon-search"></b>
+                                </em>
+                            </a>
+                        </li>
+                          </ul>
+                          <div class="row">  
+                                <div id="quicksearch" class="collapse col-lg-12">
+                                    <form action="http://www.msudenver.edu/a_to_z/search" class="navbar-form navbar-left" role="search">
+                                          <div class="col-lg-12">
+                                            <div class="input-group">
+                                            <input type="hidden" name="cx" value="004867254463714202705:1ammfpknuzw" class="form-control" placeholder="Search">
+
+                                            <input type="hidden" name="cof" value="FORID:11" class="form-control" placeholder="Search">
+
+                                            <input type="hidden" name="ie" value="UTF-8" class="form-control" placeholder="Search">
+
+                                            <label for="q" class="sr-only">Search MSU Denver site</label>
+                                            <input id="q" autofocus type="search" name="q" class="form-control" class="form-control" placeholder="Search MSU Denver site" size="32">
+                                            <span class="input-group-btn">
+                                            <button id="qButton" type="submit" class="btn btn-default">
+                                            <em>Search</em>
+                                            </button>
+                                            </span>
+                                        </div>
+                                         </div>
+                                    </form>
+                               
+                                </div>
+                            </div>
+                    
+                </div>
+                <!--/.nav-collapse -->
+            </div>
+        </div>
+        <!-- MSU DENVER LOGO -->
+        <div class=" col-lg-8 col-lg-offset-0 col-md-offset-3 col-sm-offset-2 col-xs-offset-0">
+            <div class="msudenver_logo ">
+
+<img class="clickable" src="/media/assets/branding/MSUDenver_Formal.gif" alt="MSU Denver Formal Logo" data-href="/">
+
+            </div>
+        </div>
+        <!-- ENDS MSU DENVER LOGO -->
+    </div>
+</div>
+<!-- ENDS LOGO + QUICK-LINKS -->
+
+
+<!-- BEGINS BREADCRUMBS + SITEHEADER -->
+<div class="container">
+    <div class="row">
+        <!-- SITE HEADER -->
+        <div class="siteheader">
+            <h1>
+                50 Years of Transforming Lives
+
+            </h1>
+        </div>
+        <!-- BREADCRUMBS -->
+        <ul class="breadcrumb">
+            <a href="/">MSU Denver Home</a>&nbsp;/&nbsp;<a href="/50/">50 Years of Transforming Lives</a>&nbsp;/&nbsp;<a href="/50/ourhistory/">Our History</a>&nbsp;/&nbsp;FooterCode  <p><p/>
+
+        </ul>
+    </div>
+</div>
+<!-- ENDS BREADCRUMBS + SITEHEADER -->
+
+
+    <div class="container" id="content">
+        <div class="row">
+            <div class="row">
+                <div class="col-lg-push-3 col-lg-9 col-md-9 col-md-push-3 col-sm-8 col-sm-push-4">
+                    <div class="content row">
+
+<!-- BEGINS HERO IMAGE -->
+
+<!-- ENDS HERO IMAGE -->
+
+
+                        <!-- *********************************  -->
+                        <!-- SITEMANAGER HEADER ENDS HERE -->
+                        <!-- *********************************  --><script>
+$(document).ready(function(){
+    $("#ShowAll").click(function(){
+        $(".all").show();
+    });
+   $("#Celebrities").click(function(){
+        $(".celebrities").show();
+    });
+   $("#Celebrities").click(function(){
+        $(".awards,.growth,.major").hide();
+    });
+	
+	$("#Growth").click(function(){
+        $(".growth").show();
+    });
+  $("#Growth").click(function(){
+        $(".awards,.major,.celebrities").hide();
+    });
+	$("#Awards").click(function(){
+        $(".awards").show();
+    });
+  $("#Awards").click(function(){
+        $(".major,.celebrities,.growth").hide();
+    });
+	$("#Major").click(function(){
+        $(".major").show();
+    });
+  $("#Major").click(function(){
+        $(".celebrities,.growth,.awards").hide();
+    });
+});
+
+
+</script>
+
+<script type="text/javascript" src="/media/styleassets/js/smoothscroll.js"></script><script>
+// ===== Scroll to Top ==== 
+$(window).scroll(function() {
+    if ($(this).scrollTop() >= 100) {        // If page is scrolled more than 50px
+        $('.return-to-top').fadeIn(200);    // Fade in the arrow
+    } else {
+        $('.return-to-top').fadeOut(200);   // Else fade out the arrow
+    }
+});
+$('.return-to-top').click(function() {      // When arrow is clicked
+    $('body,html').animate({
+        scrollTop : 0                       // Scroll to top of body
+    }, 500);
+});
+</script>
+ <!-- *********************************  -->
+                        <!-- SITEMANAGER START FOOTER -->
+                        <!-- *********************************  -->
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-lg-pull-9 col-md-3 col-md-pull-9 col-sm-4 col-sm-pull-8">
+
+<!-- BEGINS LEFT SIDE (LINK COLUMN -/- SIDEMENU) -->
+<div class="sidebar-nav">
+    <div id="layout">
+        <!-- Menu toggle -->
+        <a href="#menu" id="menuLink" class="menu-link">
+            <!-- Hamburger icon -->
+            <span></span>
+        </a>
+        <div id="menu">
+            <div class="pure-menu pure-menu-open">
+                <a class="pure-menu-heading visible-xs" href="#">SIDE MENU</a>
+                <ul class="nav nav-list"><li><a href="/50/ourpeople/">Our People</a></li><li><span class="currentbranch0"><a href="/50/ourhistory/">Our History</a></span></li><li><a href="/50/events/">Events</a></li><li><a href="/50/50photos/">50 Photos</a></li><li><a href="/50/videos/">Videos</a></li><li><a href="/50/about/">About</a></li><li><a href="/50/shareyourstory/">Share Your Story</a></li><li><a href="/50/getyourgear/">Get Your Gear</a></li><li><a href="/50/didyouknow/">Did You Know?</a></li><li><a href="/brandcentral/50thanniversary/" target="_blank">50th Branding Resources</a></li><li><a href="/" target="_blank">MSU Denver Home</a></li></ul>
+              <p><p/>
+
+            </div>
+        </div>
+    </div>
+</div>
+<div class="linkcolumn">
+    <!-- text/linkcol -->
+    
+
+
+</div>
+<!-- sidemenu.js  -->
+<script type="text/javascript" src="/media/prod/js/sidemenu.js"></script>
+
+
+<!-- ENDS LEFT SIDE (LINK COLUMN/SIDEMENU) -->
+
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+<!-- BEGINS GRAY BAR FOOTER -->
+<div class="container">
+    <div class="row footer">
+        <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="socialLinks">
+
+	<img class="clickable" src="/media/assets/webicons/fc-webicon-facebook.png" alt="Facebook Logo" data-href="https://www.facebook.com/msudenver">
+	<img class="clickable" src="/media/assets/webicons/fc-webicon-twitter.png" alt="Twitter Logo" data-href="http://twitter.com/msudenver">
+	<img class="clickable" src="/media/assets/webicons/fc-webicon-youtube.png" alt="YouTube Logo" data-href="http://www.youtube.com/user/msudenver">
+	<img class="clickable" src="/media/assets/webicons/fc-webicon-flickr.png" alt="Flickr Logo" data-href="http://www.flickr.com/photos/msudenver/sets/"> 
+	
+            </div>
+        </div>
+        <div class="col-md-4 campus-info">
+            <p>
+                <a href="/contact">CONTACT US</a> | 303-556-5700
+                <br>Auraria Campus Police: 303-556-5000
+                <br>Inclement Weather Line: 303-556-2401
+            </p>
+        </div>
+        <div class="col-md-4">
+            <p>
+                <a class="t4Edit-page" href="https://adt4apps.msudenver.edu/terminalfour/SiteManager?ctfn=publish&amp;fnno=31&amp;sid=28767&amp;chid=5&amp;lang=en&amp;ede=true">&copy;</a>
+                <b><a href="/">Metropolitan State University of Denver</a></b>
+                <br>
+                <a href="/privacy">Privacy Statement</a>
+                <br>
+                <a href="http://www.collegeportraits.org/CO/MSU_Denver">College Portrait</a> | <a href="http://tops.state.co.us/">Colorado TOPS</a>
+                <br>
+            </p>
+        </div>
+    </div>
+</div>
+<!-- ENDS GRAY BAR FOOTER -->
+
+<!-- BEGINS SECOND DEPENDENCY INCLUDE -->
+
+<!-- bower:js -->
+
+<!-- modernizr -->
+<script type="text/javascript" src="/media/prod/bowercomponents/modernizr/modernizr.custom.38346.js"></script>
+
+<!-- jquery -->
+<!-- <script type="text/javascript" src="/media/prod/bowercomponents/jquery/jquery.min.js"></script> -->
+
+<!-- bootstrap.js -->
+<script type="text/javascript" src="/media/prod/bowercomponents/bootstrap/dist/js/bootstrap.min.js"></script>
+
+<!-- console.polyfill -->
+<script type="text/javascript" src="/media/prod/bowercomponents/console-polyfill/index.js"></script>
+
+<!-- endbower -->
+
+<!-- main.min.js -->
+<script type="text/javascript" src="/media/prod/js/main.min.js"></script>
+
+<!-- google analytics -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-505529-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+<!-- FooterCode -->
+
+
+<!-- ENDS SECOND DEPENDENCY INCLUDE -->
+
+
+    
+    <script type="text/javascript">
+    var version = "0.0.2",
+        template = "Builder two column template";
+    </script>
+    
+
+</body>
+
+</html>
