@@ -1,0 +1,354 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<title>
+		Metropolitan State University of Denver Celebrating 50 years of transforming lives
+	</title>
+	<!-- IE6 through 8 support of HTML5 elements -->
+	<!--[if lt IE 9]>
+  <script src="js/html5shiv.js"></script>
+  <![endif]-->
+	<!--CDN-->
+	<link href="//fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,400,300,700,600" rel="stylesheet" type="text/css">
+	<link href="//fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" media="screen" href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
+	<!-- E X T E R N A L -S T Y L E S -->
+	<link rel="stylesheet" href="./styles/50years-promo.css">
+	<link rel="stylesheet" href="./styles/animate.min.css">
+
+	<!--Countdown-->
+	<script>
+		function counter() {
+			var today = new Date(); //variable contains current date and time
+
+			var days = calcDays(today); //calculate the time left until set date below
+			document.countDown.daysLeft.value = Math.floor(days); // displays days rounded to the next lowest integer
+
+			var hours = (days - Math.floor(days)) * 24; //calculate the hours left in the current day
+			document.countDown.hrLeft.value = Math.floor(hours); // display hours rounded to the next lowest integer
+
+			var minutes = (hours - Math.floor(hours)) * 60; // calculate the minutes left in the current hour
+			document.countDown.minLeft.value = Math.floor(minutes); // display minutes rounded to the next lowest integer
+
+			var seconds = (minutes - Math.floor(minutes)) * 60; //calculate the seconds left in the current minute
+			document.countDown.secLeft.value = Math.floor(seconds); // display seconds rounded to the next lowest integer
+		}
+
+		function calcDays(currentDate) {
+			//create a date object for date of graduation
+			//calculate the difference between currentDate and set date
+			setDate = new Date("July 1, 2015");
+			currentTime = currentDate.getFullYear() + 0;
+			setDate.setFullYear(currentTime);
+
+			days = (setDate - currentDate) / (1000 * 60 * 60 * 24);
+			return days;
+		}
+
+		setInterval('counter()', 1000)
+	</script>
+</head>
+
+<body>
+	<div id="top-navigation" class="hidden-sm hidden-xs">
+		<img class="img-responsive" src="../images/50th_promo/50thformal.png" style="padding:15px;">
+		<br>
+		<hr class="soft">
+		<nav class="navbar-collapse bs-navbar-collapse collapse" role="navigation" aria-expanded="false" style="height: 1px;">
+			<ul class="nav navbar-nav navbar-right nav-pills">
+				<li><a href="#home" onclick="ga('send', 'event', 'Navbar', 'Home');">Home</a>
+				</li>
+				<li><a href="#events" onclick="ga('send', 'event', 'Navbar', 'Events');">Events</a>
+				</li>
+				<li><a href="#getinvolved" onclick="ga('send', 'event', 'Navbar', 'GetInvolved');">Get Involved</a>
+				</li>
+			</ul>
+		</nav>
+	</div>
+
+	<nav class="navbar navbar-default navbar-fixed-top hidden-md hidden-lg">
+		<div class="container-fluid">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">MSU Denver</a>
+			</div>
+
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav">
+					<li><a href="#home" onclick="ga('send', 'event', 'Navbar', 'Home');">Home</a>
+					</li>
+					<li><a href="#events" onclick="ga('send', 'event', 'Navbar', 'Events');">Events</a>
+					</li>
+					<li><a href="#getinvolved" onclick="ga('send', 'event', 'Navbar', 'GetInvolved');">Get Involved</a>
+					</li>
+
+				</ul>
+			</div>
+			<!-- /.navbar-collapse -->
+		</div>
+		<!-- /.container-fluid -->
+	</nav>
+
+
+	<header class="intro">
+		<section id="home" data-speed="6" data-type="background" class="parallax intro-body">
+			<div class="container">
+				<div class="row" data-toggle="modal" data-target="#videomodal" style="cursor: pointer;">
+					<div class="col-lg-12 animated fadeIn introVideo">
+						<div class="row">
+							<div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
+								<h1>
+            Celebrating 50 years
+            <br>of transforming lives
+          </h1>
+							</div>
+							<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+								<i class="fa fa fa-play-circle btn-play wow pulse" data-wow-delay="2s" data-wow-iteration="3"></i>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-12" style="padding-top:100px;">
+						<a href="#events">
+							<i class="fa fa-angle-down"></i>
+							<br>
+							<i class="fa fa-angle-down"></i>
+						</a>
+					</div>
+				</div>
+			</div>
+
+
+			<!-- Modal -->
+			<div class="modal fade" id="videomodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+				<div class="modal-dialog" style="width: 80%; max-height:800px;">
+					<div class="modal-content" style="margin-top: 10px !important;">
+						<div class="modal-body" style="padding: 15px !important; background: black;">
+							<div class="embed-responsive embed-responsive-16by9">
+								<iframe class="embed-responsive-item" src="//www.youtube-nocookie.com/embed/ZwjSHFcYB7c?rel=0&amp;controls=1&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</section>
+	</header>
+
+	<section id="events" data-speed="4" data-type="background" class="events">
+		<div class="container">
+			<h2>Events</h2>
+			<div class="row">
+				<div class="col-lg-6 col-md-12 col-sm-6">
+					<div id="countDown" class="card wow animated fadeInUpBig" data-wow-delay=".5s">
+						<form name="countDown">
+							<div class="countdown">
+								<span class="title">Countdown to
+                  <br>Anniversary Year</span>
+								<hr class="soft">
+								<br>
+								<input size="3" name="daysLeft" />
+								<span class="days">Days</span>
+								<hr class="soft">
+								<span class="bottom_time">
+                  <input size="4" name="hrLeft" />
+                </span>
+								<span class="bottom_time">
+                  <input size="4" name="minLeft" />
+                </span>
+								<span class="bottom_time">
+                  <input size="4" name="secLeft" />
+                </span>
+								<ul>
+									<li>Hours</li>
+									<li>Minutes</li>
+									<li>Seconds</li>
+								</ul>
+								<span class="days">until July 1 </span>
+							</div>
+						</form>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-6">
+					<div class="card wow slideInRightBig">
+						<h3>Campus Kickoff</h3>
+						<hr style="border-top: 1px solid #971200;">
+						<h4><strong>Faculty and Staff Appreciation BBQ</strong></h4>
+						<p>Join Stephen and Ruthie Jordan as well as other University leaders in celebrating the extraordinary contributions of MSU Denver faculty and staff.</p>
+						<p>Wednesday, April 29, 11:30 a.m.–1:30 p.m.
+							<br> St. Cajetan’s</p>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-6">
+					<div class="card wow slideInRightBig">
+						<h3>Community Kickoff</h3>
+						<hr style="border-top: 1px solid #971200;">
+						<h4><strong>Independence Eve Celebration </strong></h4>
+						<p>Kick off MSU Denver’s 50th Anniversary year at one of the city’s most beloved annual events. The University is the official higher education partner of the celebration.</p>
+						<p>Friday, July 3, 8 p.m.
+							<br>Civic Center Park</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="card">
+						<h3 style="text-align: center;">Join the yearlong anniversary celebration. Stay tuned for the latest events. </h3>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-12" style="padding-top:25px;">
+					<a href="#getinvolved">
+						<i class="fa fa-angle-down"></i>
+						<br>
+						<i class="fa fa-angle-down"></i>
+					</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="getinvolved" data-speed="6" data-type="background">
+		<div class="container">
+			<h2>Get Involved</h2>
+			<div class="row">
+				<div class="col-lg-5 col-lg-push-3 card wow flipInX animated" data-wow-delay="1s" data-wow-offset="40">
+					<h3>Tell your story</h3>
+					<hr style="border-top: 1px solid #971200;">
+					<p>
+						Celebrate our first 50 years by sharing your memories, transformative experiences, fun facts or wishes for the future of the University.
+					</p>
+					<button class="btn btn-default btn-lg" data-toggle="modal" data-target="#tellyourstory">TELL YOUR STORY</button>
+				</div>
+			</div>
+
+			<div class="modal fade" id="tellyourstory" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+				<div class="modal-dialog" style="width: 600px;">
+					<div class="modal-content" style="margin-top: 10px !important;">
+						<div class="modal-body" style="padding: 10px !important;">
+							<iframe width="100%" height="600" frameborder="0" src="https://app.smartsheet.com/b/form?EQBCT=e15d21cf5c6e441f9f814a499713b43e"></iframe>
+							<p style="font-family:arial; font-size:13px; padding:10px; padding-top:15px;">
+								<strong>By submitting a story, I agree that MSU Denver may use this information in any of its publications/assets both in print and online. I understand that if I submit information on behalf of someone else, he or she may be contacted to provide publication permission.</strong>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-lg-5 col-lg-push-3 card wow flipInX animated" data-wow-delay="1s" data-wow-offset="40">
+					<h3>Showcase Your Memorabilia</h3>
+					<hr style="border-top: 1px solid #971200;">
+					<p>
+						We are looking for vintage MSU Denver photos, trophies, gear or other touchstones of transformation to display on campus and around Denver as part of the 50th celebration.
+					</p>
+					<button class="btn btn-default btn-lg" data-toggle="modal" data-target="#showcase">SHARE YOUR COLLECTIBLES</button>
+				</div>
+			</div>
+
+			<div class="modal fade" id="showcase" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+				<div class="modal-dialog" style="width: 600px;">
+					<div class="modal-content" style="margin-top: 10px !important;">
+						<div class="modal-body" style="padding: 10px !important;">
+							<!-- <button type="button" class="close" aria-label="Close"><span aria-hidden="true">&times;</span></button> -->
+							<iframe width="100%" height="570" frameborder="0" src="https://app.smartsheet.com/b/form?EQBCT=e5a598b9e55f4e3dbee7a2804fa2bbeb"></iframe>
+							<p style="font-family:arial; font-size:13px; padding:10px; padding-top:15px;"> <strong>If necessary, a representative from the Office of Alumni Relations will be in touch. Thank you.
+        <br><br>For questions or comments, please contact: Virginia Mennenga, <a href="mailto:vmille17@msudenver.edu">vmille17@msudenver.edu</a> or 303-556-8320</strong>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-lg-5 col-lg-push-3 card wow flipInX animated" data-wow-delay="1s" data-wow-offset="40">
+					<h3>Gear Up</h3>
+					<hr style="border-top: 1px solid #971200;">
+					<p>
+						You only turn 50 once! Commemorate your University’s birthday by sporting some limited edition MSU Denver gear.
+					</p>
+					<button class="btn btn-default btn-lg" href="http://www.aurariabooks.com/">GET YOUR GEAR</button>
+				</div>
+			</div>
+		</div>
+	</section>
+	<a href="#home" class="scrollup hidden-sm hidden-xs" style="display: inline;"><i class="fa fa-angle-up"></i></a>
+
+	<!-- F O O T E R-->
+	<div class="footer">
+		<div class="container">
+			<div class="col-lg-3">
+				<img class="img-responsive" src="../images/50th_promo/MSUDenver_Formal_white-t.png" style="max-width:140px; float:right;">
+			</div>
+			<div class="col-lg-9" style="text-align:left;">
+				<h4>About MSU Denver's 50th Anniversary
+        </h4>
+				<p>
+					For 50 years MSU Denver has transformed the lives of students, served as a courageous leader in higher education and boldly advanced the well-being of metro Denver communities and the state economy. Join the yearlong celebration of Colorado’s preeminent public urban University.
+				</p>
+				<br>
+			</div>
+			<div class="col-lg-6">
+				<p><a href="http://www.msudenver.edu/">&copy; 2015 Metropolitan State University of Denver</a>
+				</p>
+			</div>
+			<div class="col-lg-6">
+				<p> <a href="http://tops.state.co.us/">State of Colorado's Transparency Online Project (TOP)</a>
+				</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- E N D  OF F O O T E R-->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+	<script>
+		window.jQuery || document.write('<script src="js/vendor/jquery-1.9.0.min.js><\/script>')
+	</script>
+	<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.min.js"></script>
+	<script src="scripts/main.js"></script>
+	<script src="scripts/smoothscroll.js"></script>
+	<script src="scripts/wow.min.js"></script>
+	<script>
+		new WOW().init();
+	</script>
+
+	<!-- Google Analytics-->
+	<script>
+		(function (i, s, o, g, r, a, m) {
+			i['GoogleAnalyticsObject'] = r;
+			i[r] = i[r] || function () {
+				(i[r].q = i[r].q || []).push(arguments)
+			}, i[r].l = 1 * new Date();
+			a = s.createElement(o),
+				m = s.getElementsByTagName(o)[0];
+			a.async = 1;
+			a.src = g;
+			m.parentNode.insertBefore(a, m)
+		})(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+		ga('create', 'UA-505529-1', 'auto');
+		ga('send', 'pageview');
+	</script>
+
+
+
+</body>
+
+</html>
