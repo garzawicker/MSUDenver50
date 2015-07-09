@@ -202,14 +202,14 @@ a.btn.btn-lg.custombtn.emerald.col-lg-4.col-md-12.col-sm-12.col-xs-12 {
 .content-secondary-wrap {
   color: #999999;
   padding-top: 20px;
-  margin-bottom: 20px;
   text-align: center;
   background-color: #3a3c41;
   /* temporary styles for the countdown placeholder */
 }
 .content-secondary-wrap .nav-secondary {
   font-size: 0.75em;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
+  margin-top: 40px;
 }
 .content-secondary-wrap .nav-secondary li:before {
   content: " | ";
