@@ -238,10 +238,10 @@ margin-top: 200px;
   padding-bottom:15px;
 }
 
-li.timeline-year {
-                        margin-top: 0px !important;
+section.timeline-year {
+            margin-top: 0px !important;
 			border-radius: 2px;
-	                height: 75px;
+	        height: 75px;
 			text-align: center;
 			color:white;
 			font-size: 2em;
